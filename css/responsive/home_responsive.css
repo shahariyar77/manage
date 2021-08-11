@@ -1,0 +1,243 @@
+
+/* (1920x1080) Full HD Display */
+
+@media  screen and (max-width: 1920px) {}
+
+/* (1366x768) WXGA Display */
+@media  screen and (max-width: 1366px) {}
+/*---------------- iPads (daktope) ---------------------- */
+@media only screen and (min-device-width: 992px) and (max-device-width: 1200px) {
+	.main-manu li a {
+		margin: 0 20px;
+	}
+	a.hbtn {
+		padding: 10px 20px;
+		
+	}
+	.hero-area h2 {
+		font-size: 40px;
+	}
+	.cta-area h2 {
+		padding-left: 50px;
+	}
+    .footer-area input {
+		width: 76%;
+	}
+   
+ 
+} 
+    
+   
+/*------------------- iPads (portrait and landscape) -------------------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+	body{
+		font-size: 12px;
+	}
+	.header-area {
+		margin-bottom: 50px;
+	}
+    .logo img {
+		max-width: 110px;
+	}
+	.main-manu li a {
+		margin: 0 16px;
+		font-size: 12px;
+	} 
+    a.hbtn {
+		padding: 10px 13px;
+		font-size: 12px;
+	}
+	.hero-area h2 {
+		font-size: 30px;
+	}
+    .hero-img img {
+		max-width: 425px;
+	}
+	.hero-area p {
+		font-size: 10px;
+	}
+	.hero-area {
+		min-height: 430px;
+		margin-bottom: 50px;
+	}
+	.testmonial-area {
+		margin-bottom: 65px;
+	}
+	.about-area h2 {
+		font-size: 20px;
+	}
+	.single-about-item h4 {
+		font-size: 13px;
+	}
+	.single-about-item p {
+		font-size: 9px;
+	}
+	.about-right {
+		padding: 30px;
+		margin-top: -30px;
+		margin-left: 50px;
+	}
+	.cta-area h2 {
+		font-size: 23px;
+		
+	}
+	.footer-logo img {
+		max-width: 110px;
+	}
+	.socil-link a {
+		font-size: 16px;
+		padding: 0 2px;
+	}
+	.footer-area input {
+		width: 70%;
+	}
+	.footer-area input[type="submit"] {
+		width: 25%;
+		
+	}
+	.footer-logo {
+		margin-bottom: 45px;
+	}
+	.footer-area input {
+		margin-bottom: 35px;
+	}
+}
+
+/*================= 320  mobile lay out   =======================*/
+@media only screen and (max-device-width: 767px) {
+	body{
+		font-size: 12px;
+	}
+	.header-bar {
+		display: block;
+	}
+	.header-area {
+		padding-top: 26px;
+	}
+    .main-manu {
+		display: none;
+	}
+	.side-btn {
+		display: none;
+	}
+	.header-area {
+		margin-bottom: 50px;
+	}
+	
+	.hero-img {
+		position: absolute;
+		left: 0;
+		top: 120px;
+	}
+  .hero-img img {
+	width: 100%;
+  }
+  .hero-area h2 {
+	font-size: 33px;
+	margin-top: 290px;
+}
+.about-left {
+	padding: 0;
+	margin-left: 0;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.about-area h2 {
+	font-size: 30px;
+}
+
+.about-right {
+	padding: 0;
+	margin-top: 0;
+	margin-left: 0;
+	text-align: center;
+}
+.single-about-item::after {
+	position: absolute;
+	left: -6px;
+	top: 0px;
+	height: 33px;
+	width: 60px;
+	content: "01";
+	background: #f3613c;
+	border-radius: 50px;
+	text-align: center;
+	line-height: 33px;
+	color: #fff;
+	font-weight: 700;
+}
+.single-about-item {
+	margin-bottom: 50px;
+}
+.single-about-item h4 {
+	font-size: 11px;
+	background: #fff0eb;
+	padding: 10px 0;
+}
+.section-tittle h2 {
+	font-size: 30px;
+}
+.about-area {
+	margin-bottom: 20px;
+}
+.testmonial-area {
+	margin-bottom: 40px;
+}
+.cta-btn {
+	text-align: center;
+}
+.cta-area h2 {
+	font-size: 44px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 30px;
+	padding-left: 0;
+}
+.footer-area {
+	height: 540px;
+}
+.footer-area input[type="email"] {
+	position: absolute;
+	left: 12px;
+	top: 50px;
+	width:65%;
+}
+.footer-area input[type="submit"] {
+	width: 27%;
+	position: absolute;
+	right: 12px;
+	top: 50px;
+}
+.socil-link {
+	position: absolute;
+	top: 58%;
+	left: 12%;
+}
+
+.footer-area ul {
+	margin-top:85px;
+	text-align: center;
+	margin-bottom: 70px;
+}
+.footer-area, .footer-area a {
+	line-height: 2.4;
+	font-size: 15px;
+	font-weight: 400;
+}
+.footer-logo {
+	position: absolute;
+    top: 75%;
+	left: 23%;
+}
+.socil-link a {
+	font-size: 30px;
+	padding: 0 8px;
+}
+.copyright {
+	position: absolute;
+	bottom: 13px;
+	left: 9%;
+}
+/*=================   iPad  landscape  =======================*/
+
